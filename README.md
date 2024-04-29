@@ -13,8 +13,6 @@
 
 <title>Austin Jang: Dynamics and 
 Relativity</title>
-<meta name="description" content="A Cambridge University course with lecture 
-notes covering Newtonian Mechanics and Special Relativity." />
 <meta name="keywords" content="classical dynamics, classical mechanics, lecture notes, 
 problem sheets, example sheets, Lagrangian, Hamiltonian, Analytical mechanics" />
 <style type="text/css" title="text/css" media="all">
