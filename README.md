@@ -80,20 +80,6 @@ href="teaching.html">Lectures Notes</a>
 <li><a href="http://www.damtp.cam.ac.uk/user/tong/susy.html">Supersymmetric Field Theory</a></li>
 <li><a href="http://www.damtp.cam.ac.uk/user/tong/string.html">String Theory</a></li>
     </ul></ul>	
-  <div id="content">
-
-  <div id="content-primary">
-
-
-<div id="sidebar">
-<img src="relativity/time.jpg"
-          alt="Time" width="180" height="151"><br>
-<p></p>
-<div align="center"><img src="relativity/cat1.jpg"
- alt="cat" width="120" height="170" class="centre"></div>
-<p>&nbsp;&nbsp;&nbsp;&nbsp; Class cat (unharmed) 2013</p>
-
-
 <p>
 </p>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
