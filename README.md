@@ -13,6 +13,8 @@
 
 <title>Austin Jang: Dynamics and 
 Relativity</title>
+<meta name="description" content="A Cambridge University course with lecture 
+notes covering Newtonian Mechanics and Special Relativity." />
 <meta name="keywords" content="classical dynamics, classical mechanics, lecture notes, 
 problem sheets, example sheets, Lagrangian, Hamiltonian, Analytical mechanics" />
 <style type="text/css" title="text/css" media="all">
@@ -30,13 +32,10 @@ alt="University of Cambridge" /></a>
 </div>
 
 <!-- end header -->
+
 </div>
 
       <div id="container"> <a name="skip-content" id="skip-content"></a>
-
-
-
-
 
 
 
@@ -80,13 +79,18 @@ href="teaching.html">Lectures Notes</a>
 <li><a href="http://www.damtp.cam.ac.uk/user/tong/susy.html">Supersymmetric Field Theory</a></li>
 <li><a href="http://www.damtp.cam.ac.uk/user/tong/string.html">String Theory</a></li>
     </ul></ul>	
-<p>
-</p>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-</div>
+  <div id="content">
 
+  <div id="content-primary">
+    
 <h1>Austin </h1>
+
+<p> This is an introductory course on Newtonian mechanics and special 
+relativity given to first year undergraduates. 
+The notes were last updated in March 2013. Individual chapters and problem 
+sheets are available below. The full set of lecture notes come in around 160 pages 
+and can be downloaded here. Please do email me if you find any typos or corrections. 
+</p><br>
 
 <strong><center> <a href=relativity/dynrel.ps>PostScript</a>&nbsp;&nbsp 
 &nbsp;&nbsp <a href=relativity/dynrel.pdf>PDF</a> </center> </strong> <br> 
@@ -143,30 +147,6 @@ SL(2,C); Terrell-Penrose Rotations; Spinors.   </li><p>
 
 </ul>
 
-<br>
-
-<h1>Problem Sheets</h1>
-<ul>
-<li><b>Problem Sheet 1: &nbsp;
-<a href=relativity/htl1.ps>Postscript</a>&nbsp &nbsp; <a 
-href=relativity/htl1.pdf>PDF</a></b>
-&nbsp;&nbsp; Single Particle Mechanics </li><br>
-<li><b>Problem Sheet 2: &nbsp;
-<a href=relativity/htl2.ps>Postscript</a>&nbsp &nbsp; <a 
-href=relativity/htl2.pdf>PDF</a></b>
-&nbsp;&nbsp; Central Forces and Orbits</li><br>
-<li><b>Problem Sheet 3: &nbsp;
-<a href=relativity/htl3.ps>Postscript</a>&nbsp &nbsp; <a 
-href=relativity/htl3.pdf>PDF</a></b>
-&nbsp;&nbsp; Systems of Particles and Spinning Things 
-</li><br>
-<li><b>Problem Sheet 4: &nbsp;
-<a href=relativity/htl4.ps>Postscript</a>&nbsp &nbsp; <a 
-href=relativity/htl4.pdf>PDF</a></b>
-&nbsp;&nbsp; Special Relativity </li><br>
-
-</ul><br>
-<br>
 
 
 </html>
