@@ -3,11 +3,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 
-<link rel="stylesheet" href="/global/style/layout.css" type="text/css" media="all" />
-<link rel="stylesheet" href="/global/style/print.css" type="text/css" media="print" />
-<link rel="stylesheet" href="/global/style/rssfeed.css" />
-<link rel="stylesheet" href="/global/style/purecontent.css" />
-<link rel="stylesheet" href="/global/style/local.css" />
+<link rel="stylesheet" href="layout.css" type="text/css" media="all" />
+<link rel="stylesheet" href="print.css" type="text/css" media="print" />
+<link rel="stylesheet" href="rssfeed.css" />
+<link rel="stylesheet" href="purecontent.css" />
+<link rel="stylesheet" href="local.css" />
 <link rel="Shortcut Icon" href="/favicon.ico" />
 
 
