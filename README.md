@@ -32,10 +32,13 @@ alt="University of Cambridge" /></a>
 </div>
 
 <!-- end header -->
-
 </div>
 
       <div id="container"> <a name="skip-content" id="skip-content"></a>
+
+
+
+
 
 
 
@@ -100,13 +103,6 @@ href="teaching.html">Lectures Notes</a>
 </div>
 
 <h1>Austin </h1>
-
-<p> This is an introductory course on Newtonian mechanics and special 
-relativity given to first year undergraduates. 
-The notes were last updated in March 2013. Individual chapters and problem 
-sheets are available below. The full set of lecture notes come in around 160 pages 
-and can be downloaded here. Please do email me if you find any typos or corrections. 
-</p><br>
 
 <strong><center> <a href=relativity/dynrel.ps>PostScript</a>&nbsp;&nbsp 
 &nbsp;&nbsp <a href=relativity/dynrel.pdf>PDF</a> </center> </strong> <br> 
