@@ -3,16 +3,16 @@ Now under RCS 'cos JSP likes that!
 */
 
 /* -------------------------------------------------------------- 
-
+  
    CSS Framework
    Web Design & Development by Studio 24 Ltd
    www.studio24.net - (0870) 241 6159
-
+   
    * Print Styles *
-
+      
    This is the print CSS-file for the framework.
    Include this in the <head> of every page.
-
+   
 -------------------------------------------------------------- */
 
 /* Hide unwanted elements */
@@ -35,8 +35,8 @@ display: none;
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: #fff;
-  padding:0;}
+	background: #fff;
+	padding:0;}
 
 div#header {overflow: hidden; float: none; width:auto; border:none;margin:0; padding:0;}
 div#container {overflow: visible; float: none; width:auto; border:none;margin:0; padding:0;}
@@ -44,11 +44,11 @@ div#container {overflow: visible; float: none; width:auto; border:none;margin:0;
 div#content {overflow: visible; float: none;}
 
 div#header div#branding {
-  padding: 0;
+	padding: 0;
 }
 div#header div#branding img {
-  padding-left: 0;
-  padding-bottom: 0;
+	padding-left: 0;
+	padding-bottom: 0;
 }
 
 /* undo what the layout.css does which annoys at least firefox when
@@ -69,153 +69,153 @@ h1, h2 {
 body.home #content-primary {
 width: 60%;
 padding-right: 1em;
-  }
+	}
 
 body.home #content-secondary {
-  width:35%;
+	width:35%;
 }
 
 
 body.two-col ul#nav-primary, body.three-col ul#nav-primary {
-  display: none;
+	display: none;
 }
 body.two-col div#content, body.three-col div#content {
-  width: 100%;
+	width: 100%;
 }
 p, ul, ol, dl, table, blockquote, pre, code, select, input  {
-  line-height: 1.5em;
+	line-height: 1.5em;
 }
 
 select, input  {
-  font-size: 0.8em;
+	font-size: 0.8em;
 }
 div#header div#branding {
-  padding: 0 0 0 18px;
+	padding: 0 0 0 18px;
 }
 
 p.section {
-  font-size: 1.5em;
-  font-weight: normal;
-  margin-top: 0;
+	font-size: 1.5em;
+	font-weight: normal;
+	margin-top: 0;
 }
 
 div#content div#content-primary a:link:after, div#content div#content-primary a:visited:after {
    content: " (" attr(href) ") ";
    color: #999;
    text-decoration: none;
-  font-size: 80%;
+	font-size: 80%;
 }
 
 div#header img {
-  border: none;
-  position: relative;
-  left: -20px;
+	border: none;
+	position: relative;
+	left: -20px;
 }
 
 div#content img {
-  float: right;
-  margin-left: 3em;
-  margin-bottom: 3em;
+	float: right;
+	margin-left: 3em;
+	margin-bottom: 3em;
 }
 
 div.alert {
-  padding: 18px 0 0 52px;
-  margin: 1em 0 1em 0;
+	padding: 18px 0 0 52px;
+	margin: 1em 0 1em 0;
 }
 
 div.alert h2 {
-  font-size: 1.25em;
-  margin-bottom: 1em;
-  line-height: 0;
-  font-weight: bold;
-  padding: 0;
+	font-size: 1.25em;
+	margin-bottom: 1em;
+	line-height: 0;
+	font-weight: bold;
+	padding: 0;
 }
 
 div.warning {
-  border: 1px solid red;
-  background: #FFCCCC url(../images/icon-alert-warning.gif) no-repeat 10px 13px;
+	border: 1px solid red;
+	background: #FFCCCC url(../images/icon-alert-warning.gif) no-repeat 10px 13px;
 }
 
 div.normal {
     border: 1px solid #ffcc66;
-  background: #ffffcc url(../images/icon-alert-normal.gif) no-repeat 10px 13px;
+	background: #ffffcc url(../images/icon-alert-normal.gif) no-repeat 10px 13px;
 }
 
 dl {
-  margin: 0 0 1em 2em;
+	margin: 0 0 1em 2em;
 }
 
 body.home dl {
-  margin-left: 0;
+	margin-left: 0;
 }
 
 dl.news, dl.media {
-  line-height: 1em;
+	line-height: 1em;
 }
 
 dl.links {
 /*
-  border-top: 1px solid #d3d3b1;
+	border-top: 1px solid #d3d3b1;
 */
-  margin: 2em 0 0 0;
-  padding: 1em 0 0 0;
+	margin: 2em 0 0 0;
+	padding: 1em 0 0 0;
 }
 
 
 dt {
-  font-weight: bold;
+	font-weight: bold;
 }
 
 dd {
-  margin: 0 0 0.5em 0;
-  padding: 0;
+	margin: 0 0 0.5em 0;
+	padding: 0;
 }
 
 ul li.link {
-  list-style-type: none;
-  background: url(../images/icon-arrow-nav-primary.gif) no-repeat 0 50%;
-  padding-left: 1.5em;
-  position: relative;
-  left: -1.5em;
+	list-style-type: none;
+	background: url(../images/icon-arrow-nav-primary.gif) no-repeat 0 50%;
+	padding-left: 1.5em;
+	position: relative;
+	left: -1.5em;
 }
 
 table {
-  width: auto;
-  margin: 0 0 1em 0;
-  border-top:1px solid #ddd;
-  border-left:1px solid #ddd;
+	width: auto;
+	margin: 0 0 1em 0;
+	border-top:1px solid #ddd;
+	border-left:1px solid #ddd;
 }
 
 th,td {
-  padding: 0.3em 0.4em 0.2em 0.4em;
-  border-bottom:1px solid #ddd;
-  border-right:1px solid #ddd;
+	padding: 0.3em 0.4em 0.2em 0.4em;
+	border-bottom:1px solid #ddd;
+	border-right:1px solid #ddd;
 }
 
 th {
-  font-weight:bold;
+	font-weight:bold;
 }
 
 table .alt {
-  background: #edf3fe;
+	background: #edf3fe;
 }
 
 blockquote  { 
-  border:1px solid #ddd;
-  font-style: italic;
-  margin: 0 0 1em 0; 
-  padding: 1em;
+	border:1px solid #ddd;
+	font-style: italic;
+	margin: 0 0 1em 0; 
+	padding: 1em;
 }
 
 div#content-secondary dl.links dd a , div#content-secondary dl.links dd a:hover {
-  background: #fff;
-  padding-left: 12px;
-  }
+	background: #fff;
+	padding-left: 12px;
+	}
 
 div#content-secondary dl.links dt, div#content-secondary dl.section dt, div#content-secondary dl.news dt, div#content-secondary dl.media dt, ul#nav-primary, div#content-primary div#menuwrapper dl#menu dd a
 {
-  background: #fff;
-  padding-left: 12px;
+	background: #fff;
+	padding-left: 12px;
 }
 
 /* print only styles 
@@ -224,7 +224,7 @@ div#content-secondary dl.links dt, div#content-secondary dl.section dt, div#cont
 div#content-primary p#printbox {display:block; margin: 2em 0 0 0; border: 1px solid #ccc; padding: 0.5em 0.5em 0.25em 0.5em;}
 
 p#printbox {
-  clear:both;
+	clear:both;
 }
 
 p#printbox span.emph {font-style: italic; font-weight: bold;}
@@ -234,170 +234,170 @@ p#printbox span.emph {font-style: italic; font-weight: bold;}
 -------------------------------------------------------------- */	
 
 a.icon-more {
-  background: url(../images/icon-more.gif) no-repeat 0 0;
-  padding: 0 0 2px 2em;
-  height:6px;
-  width:6px;
-  }
+	background: url(../images/icon-more.gif) no-repeat 0 0;
+	padding: 0 0 2px 2em;
+	height:6px;
+	width:6px;
+	}
 
 a.icon-look {
-  background: url(../images/icon-look.gif) no-repeat 0 0;
-  padding: 0 0 2px 2em;
-  height:6px;
-  width:6px;
+	background: url(../images/icon-look.gif) no-repeat 0 0;
+	padding: 0 0 2px 2em;
+	height:6px;
+	width:6px;
 }
 
 a.icon-follow {
-  background: url(../images/icon-follow.gif) no-repeat 0 0;
-  padding: 0 0 2px 2em;
-  height:6px;
-  width:6px;
+	background: url(../images/icon-follow.gif) no-repeat 0 0;
+	padding: 0 0 2px 2em;
+	height:6px;
+	width:6px;
 }
 
 a.icon-top {
-  background: url(../images/icon-top.gif) no-repeat 0 0;
-  padding: 0 0 2px 2em;
-  height:6px;
-  width:6px;
+	background: url(../images/icon-top.gif) no-repeat 0 0;
+	padding: 0 0 2px 2em;
+	height:6px;
+	width:6px;
 }
 
 a.icon-rss {
-  background: url(../images/icon-rss.gif) no-repeat 0 0;
-  padding: 0 0 2px 2em;
-  height:6px;
-  width:6px;
+	background: url(../images/icon-rss.gif) no-repeat 0 0;
+	padding: 0 0 2px 2em;
+	height:6px;
+	width:6px;
 }
 
 a.icon-audio {
-  background: url(../images/icon-audio.gif) no-repeat 0 0;
-  padding: 0 0 2px 2em;
-  height:6px;
-  width:6px;
+	background: url(../images/icon-audio.gif) no-repeat 0 0;
+	padding: 0 0 2px 2em;
+	height:6px;
+	width:6px;
 }
 
 a.icon-photo {
-  background: url(../images/icon-photo.gif) no-repeat 0 0;
-  padding: 0 0 2px 2em;
-  height:6px;
-  width:6px;
+	background: url(../images/icon-photo.gif) no-repeat 0 0;
+	padding: 0 0 2px 2em;
+	height:6px;
+	width:6px;
 }
 
 a.icon-video {
-  background: url(../images/icon-video.gif) no-repeat 0 0;
-  padding: 0 0 2px 2em;
-  height:6px;
-  width:6px;
+	background: url(../images/icon-video.gif) no-repeat 0 0;
+	padding: 0 0 2px 2em;
+	height:6px;
+	width:6px;
 }
 
 a.icon-community {
-  background: url(../images/icon-community.gif) no-repeat 0 0;
-  padding: 0 0 2px 2em;
-  height:6px;
-  width:6px;
+	background: url(../images/icon-community.gif) no-repeat 0 0;
+	padding: 0 0 2px 2em;
+	height:6px;
+	width:6px;
 }
 
 a.icon-restricted {
-  background: url(../images/icon-restricted.gif) no-repeat 0 0;
-  padding: 0 0 2px 2em;
-  height:6px;
-  width:6px;
+	background: url(../images/icon-restricted.gif) no-repeat 0 0;
+	padding: 0 0 2px 2em;
+	height:6px;
+	width:6px;
 }
 
 a.icon-help {
-  background: url(../images/icon-help.gif) no-repeat 0 0;
-  padding: 0 0 2px 2em;
-  height:6px;
-  width:6px;
+	background: url(../images/icon-help.gif) no-repeat 0 0;
+	padding: 0 0 2px 2em;
+	height:6px;
+	width:6px;
 }
 
 a.icon-email {
-  background: url(../images/icon-email.gif) no-repeat 0 0;
-  padding: 0 0 2px 2em;
-  height:6px;
-  width:6px;
+	background: url(../images/icon-email.gif) no-repeat 0 0;
+	padding: 0 0 2px 2em;
+	height:6px;
+	width:6px;
 }
 
 a.icon-quick-links {
-  background: url(../images/icon-quick-links.gif) no-repeat 0 0;
-  padding: 0 0 2px 2em;
-  height:6px;
-  width:6px;
+	background: url(../images/icon-quick-links.gif) no-repeat 0 0;
+	padding: 0 0 2px 2em;
+	height:6px;
+	width:6px;
 }
 
 a.icon-media {
-  background: url(../images/icon-media.gif) no-repeat 0 0;
-  padding: 0 0 2px 2em;
-  height:6px;
-  width:6px;
+	background: url(../images/icon-media.gif) no-repeat 0 0;
+	padding: 0 0 2px 2em;
+	height:6px;
+	width:6px;
 }
 
 a.icon-down {
-  background: url(../images/icon-down.gif) no-repeat 0 0;
-  padding: 0 0 2px 2em;
-  height:6px;
-  width:6px;
+	background: url(../images/icon-down.gif) no-repeat 0 0;
+	padding: 0 0 2px 2em;
+	height:6px;
+	width:6px;
 }
 
 a.icon-external {
-  background: url(../images/icon-external.gif) no-repeat 0 0;
-  padding: 0 0 2px 2em;
-  height:6px;
-  width:6px;
+	background: url(../images/icon-external.gif) no-repeat 0 0;
+	padding: 0 0 2px 2em;
+	height:6px;
+	width:6px;
 }
 
 a.icon-section {
-  background: url(../images/icon-section.gif) no-repeat 0 0;
-  padding: 0 0 2px 2em;
-  height:6px;
-  width:6px;
+	background: url(../images/icon-section.gif) no-repeat 0 0;
+	padding: 0 0 2px 2em;
+	height:6px;
+	width:6px;
 }
 
 a.icon-pdf {
-  background: url(../images/icon-pdf.gif) no-repeat 0 0;
-  padding: 0 0 2px 2em;
-  height:6px;
-  width:6px;
+	background: url(../images/icon-pdf.gif) no-repeat 0 0;
+	padding: 0 0 2px 2em;
+	height:6px;
+	width:6px;
 }
 
 a.icon-word {
-  background: url(../images/icon-word.gif) no-repeat 0 0;
-  padding: 0 0 2px 2em;
-  height:6px;
-  width:6px;
+	background: url(../images/icon-word.gif) no-repeat 0 0;
+	padding: 0 0 2px 2em;
+	height:6px;
+	width:6px;
 }
 
 a.icon-excel {
-  background: url(../images/icon-excel.gif) no-repeat 0 0;
-  padding: 0 0 2px 2em;
-  height:6px;
-  width:6px;
+	background: url(../images/icon-excel.gif) no-repeat 0 0;
+	padding: 0 0 2px 2em;
+	height:6px;
+	width:6px;
 }
 
 /*search pages*/
 
 body.search div.docbox{
-  margin-top: 1em;
-  padding: 0.5em;
-  border: #cc9 1px solid;}
+	margin-top: 1em;
+	padding: 0.5em;
+	border: #cc9 1px solid;}
 
 
 body.search div.docbox {
-  padding: 0.5em;
-  border: #cc9 1px solid;}
-
+	padding: 0.5em;
+	border: #cc9 1px solid;}
+	
 div.resgroup{
-  margin: 3px;
-  padding: 10px;
-  width: 100%;
-  border-top: solid 1px #cccccc;
-  clear: both; 
-  overflow: hidden; 
+	margin: 3px;
+	padding: 10px;
+	width: 100%;
+	border-top: solid 1px #cccccc;
+	clear: both; 
+	overflow: hidden; 
 }
 
 div.resgroup div.resgrouplist {
-  float: right;
-  padding: 0;
-  width: 190px;
+	float: right;
+	padding: 0;
+	width: 190px;
 }
 
 div.resgroup img {
@@ -405,7 +405,7 @@ div.resgroup img {
 }
 
 div.resgroup div.resgroupdesc {
-  margin: 0 0px;
+	margin: 0 0px;
 }
 
 /* jp107 2009-02-05 - hide the photos that are on /internal/ when
@@ -414,7 +414,7 @@ div.resgroup div.resgroupdesc {
    will not be as expected (nor the size), and they will generally
    look as ugly as hell... */
 div.damtpphoto {
-  display: none;
+	display: none;
 }
 
 /* these are essentially the same as definitions from purecontent.css but
@@ -431,18 +431,18 @@ div.stafflist span.person { text-align: center; }
 .stafflist span.person h3 {text-align: center; margin: 0;}
 .stafflist span.person p {text-align: center; margin-top: 11px; line-height: 1.5em;}
 .stafflist span.person img, .stafflist span.photograph { 
-  text-align:center;
-  height: 160px; 
-  margin-top:5px;
-  margin-bottom:0px;
-  padding:0px;
-  border: 1px solid #999; }
+	text-align:center;
+	height: 160px; 
+	margin-top:5px;
+	margin-bottom:0px;
+	padding:0px;
+	border: 1px solid #999; }
 
 /* hide the extra url additions (defined way above) in .stafflist - used for
    picture board 2009-02-27 JSP */
 div#content div#content-primary div.stafflist a:link:after, div#content div#content-primary div.stafflist a:visited:after {
-  content: "";
-  display: none;
+	content: "";
+	display: none;
 }
 
 /* these don't seem to be needed in the local.css but without them the images
@@ -488,36 +488,36 @@ div#content div#content-primary div.stafflist span.person img, div#content div#c
    box when printing for now, added 2009-03-05 JSP, see also
    local.css!  */
 div.dcnewssearch {
-  display: none
+	display: none
 }
 
 /* for the postapp site */
 div.noprinting {
-  display: none;
+	display: none;
 }
 
 /* for the dctadmin bits */
 div.dctadmin table, div.dctadmin th, div.dctadmin td, div.dctadmin td pre {
-  margin-right: auto;
-  text-align: left;
-  margin-bottom: 1em;
-  font-size: 0.86em;	
+	margin-right: auto;
+	text-align: left;
+	margin-bottom: 1em;
+	font-size: 0.86em;	
 }
 div.dctadmin table, div.dctadmin pre {
-  border: 1px solid black;
-  min-width: 40em;
+	border: 1px solid black;
+	min-width: 40em;
 }
 div.dctadmin th, div.dctadmin td {
-  padding: 0.1em 1.2em 0.1em 1.2em;
-  border: 1px solid black;
+	padding: 0.1em 1.2em 0.1em 1.2em;
+	border: 1px solid black;
 }
 div.dctadmin td pre {
-  min-height: 2em;
-  padding: 0.45em 0em 0.15em 0em;
-  margin-bottom: 0;
-  font-size: 1em;
-  border: 0;
+	min-height: 2em;
+	padding: 0.45em 0em 0.15em 0em;
+	margin-bottom: 0;
+	font-size: 1em;
+	border: 0;
 }
 div.dctadmin th {
-  font-weight: bold;
+	font-weight: bold;
 }
