@@ -69,29 +69,29 @@ img.default {
 
 /* = Adds GTM research section */
 div.resgroup {
-  margin: 3px;
-  padding: 10px;
-  width: 100%;
-  border-top: solid 1px #cccccc;
-  clear: both;
+	margin: 3px;
+	padding: 10px;
+	width: 100%;
+	border-top: solid 1px #cccccc;
+	clear: both;
 }
 
 div.resgroup img {
-  clear: none;
-  float: left;
-  float:left;
-  width:150px;
-  margin:0; padding:10px 0  0 0;
+	clear: none;
+	float: left;
+	float:left;
+	width:150px;
+	margin:0; padding:10px 0  0 0;
 }
 
 div.resgroup h2 {
-  clear: none;
-  margin-top: 5px;
-  padding-top: 0px;
+	clear: none;
+	margin-top: 5px;
+	padding-top: 0px;
 }
 
 div.resgroup div.resgroupdesc {
-  margin: 0 180px;
+	margin: 0 180px;
 }
 
 .resgrouplist >  p {
@@ -99,23 +99,23 @@ div.resgroup div.resgroupdesc {
 }
 
 div.resgroup div.resgrouplist  {
-  float: right;
-  padding: 0;
-  width: 240px;
-  margin-right: 60px;
+	float: right;
+	padding: 0;
+	width: 240px;
+	margin-right: 60px;
 }
 
 div.resgrouplist ul li { list-style: none; }
 
 div#banner h2 {
-  min-height: 2.5em;
-  padding: 15px;
-  margin-bottom: 0;
+	min-height: 2.5em;
+	padding: 15px;
+	margin-bottom: 0;
 }
 
 div #banner img {
-  margin-left: auto;
-  margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 div#content-primary p img {
@@ -151,100 +151,100 @@ div#content-primary p.captionright {
         float: right;
         display: inline;
         clear: both;
-  font-size: 0.6em;
-  padding: 0px;
+	font-size: 0.6em;
+	padding: 0px;
 }
 
 div#content-primary p img.left {
         float: left;
         border: 5px solid #dbd7cc;
         margin-right: 20px;
-  margin-left: 0px;
+	margin-left: 0px;
         margin-bottom: 1.125em;
         display: inline;
 }
 
 div#content-primary ul li li {
-  list-style:disc;	
+	list-style:disc;	
 }
 
 /* code to provide quick two-column layout */
 
 div.twocols {
-  width: 100%;
-  }
+	width: 100%;
+	}
 
 div.col {
-  width: 50%;
-  float: left;
-  }
+	width: 50%;
+	float: left;
+	}
 
 /* JSP computingnews class added to implement what SJC/PHH asked for */
 body[class="two-col dept"] ul.computingnews {
-  /* use this much of the column when in 2-col format */
-  width: 40%;
-  /* Avoid boxes getting too small to display common titles */
-  min-width: 33em;
+	/* use this much of the column when in 2-col format */
+	width: 40%;
+	/* Avoid boxes getting too small to display common titles */
+	min-width: 33em;
 }
 body[class="three-col dept"] ul.computingnews {
-  /* use this much of the column when in 3-col format */
-  width: 60%;
-  /* Avoid boxes getting too small to display common entries */
-  min-width: 32em;
+	/* use this much of the column when in 3-col format */
+	width: 60%;
+	/* Avoid boxes getting too small to display common entries */
+	min-width: 32em;
 }
 
 /* For urgent news items - red(ish) to show they are 'important' */
 ul.computingnews li.urgentnews {
-  border: 1px solid #F7CCCC;
-  font-weight: bold;
-  margin-bottom: 1px;
-  background: #F7CCCC;
+	border: 1px solid #F7CCCC;
+	font-weight: bold;
+	margin-bottom: 1px;
+	background: #F7CCCC;
 }
 
 ul.computingnews li.urgentnews a {
-  display: block
+	display: block
 }
 
 /* fiddle the colours on hover to make the text a bit more visible */
 ul.computingnews li.urgentnews a:hover{
-  background: #FFEEEE;
-  color:#036;
+	background: #FFEEEE;
+	color:#036;
 }
 
 /* For new news items - yellow to show they are 'recent' */
 ul.computingnews li.newnews {
-  border: 1px solid  #F7F7CC;
-  font-weight: bold;
-  margin-bottom: 1px;
-  background: #F7F7CC;
+	border: 1px solid  #F7F7CC;
+	font-weight: bold;
+	margin-bottom: 1px;
+	background: #F7F7CC;
 }
 
 ul.computingnews li.newnews a {
-  display: block
+	display: block
 }
 
 /* fiddle the colours on hover to make the text a bit more visible */
 ul.computingnews li.newnews a:hover{
-  background: #FFFFEE;
-  color:#c60;
+	background: #FFFFEE;
+	color:#c60;
 }
 
 /* For older news items - blue to show they are 'cold'  */
 ul.computingnews li.oldnews {
-  border: 1px solid #f1f5ff;
-  font-weight: bold;
-  margin-bottom: 1px;
-  background: #f1f5ff;
+	border: 1px solid #f1f5ff;
+	font-weight: bold;
+	margin-bottom: 1px;
+	background: #f1f5ff;
 }
 
 ul.computingnews li.oldnews a {
-  display: block
+	display: block
 }
 
 /* fiddle the colours on hover to make the text a bit more visible */
 ul.computingnews li.oldnews a:hover{
-  background: #fff;
-  color:#c60;
+	background: #fff;
+	color:#c60;
 }
 
 
@@ -256,10 +256,10 @@ ul.computingnews li.oldnews a:hover{
 div.dccent p, div.dccent table, div.dccent th, div.dccent img,
 div.dcnews table, div.dcnews th, div.dcnews td.dccent, div.dccomp td.dccent,
 div.dccomp table, div.dccomp th, div.dccent td.dccent, div.dcnews td.dccent {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  margin-bottom: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 1em;
 }
 
 /* ensure that these default to left-aligned text in case anything
@@ -269,34 +269,34 @@ div.dccomp table.dcleft td,
 div.dcnews table.dcleft td,
 div.dcnews td, div.dccomp td, 
 div.dccent td, div.dcnews td {
-  text-align: left;
+	text-align: left;
 }
 
 /* Alter min height for pre block to stop 1 line pre blocks from being
    stupid */
 div.dccent pre, div.dcnews pre, div.dccomp pre {
-  min-height: 2em;
+	min-height: 2em;
 }
 
 /* set a min-width for the dcnews tables */
 div.dcnews table, div.dccomp table {
-  min-width: 55%;
+	min-width: 55%;
 }
 div.dccent table, div.dcnews table, div.dccomp table {
-  border: 1px solid black;
+	border: 1px solid black;
 }
 
 div.dccent th, div.dccent td, div.dcnews th, div.dcnews td  {
-  padding: 0.1em 1.2em 0.1em 1.2em;
-  border: 1px solid black;
+	padding: 0.1em 1.2em 0.1em 1.2em;
+	border: 1px solid black;
 }
 div.dccomp th, div.dccomp td  {
-  padding: 0.1em 0.15em 0.1em 0.15em;
-  border: 1px solid black;
+	padding: 0.1em 0.15em 0.1em 0.15em;
+	border: 1px solid black;
 }
 div.dccent th, div.dcnews th, div.dccomp th {
-  font-weight: bold;
-  background: #f1f5ff;
+	font-weight: bold;
+	background: #f1f5ff;
 }
 div.dccent td, div.dcnews td, div.dccomp td {
         background: #f9f9f9;
@@ -307,7 +307,7 @@ div.dccomp tr.dcoff td {
 
 /* for div blocks around things which should just have float right set */
 div#content-primary div.dcright {
-  float: right
+	float: right
 }
 
 /* left hand side nav menu hightlight for hover - mr349, 03/11/2008 */
@@ -320,28 +320,28 @@ ul#nav-primary li a:hover, ul#nav-primary li.active a:hover {
    but the default styles make things almost unreadable - e.g. in the printer
    controls cgi  for the status and console display etc */
 div.dctadmin table, div.dctadmin th, div.dctadmin td, div.dctadmin td pre {
-  margin-right: auto;
-  text-align: left;
-  margin-bottom: 1em;
-  font-size: 0.86em;	
+	margin-right: auto;
+	text-align: left;
+	margin-bottom: 1em;
+	font-size: 0.86em;	
 }
 div.dctadmin table, div.dctadmin pre {
-  border: 1px solid black;
-  min-width: 40em;
+	border: 1px solid black;
+	min-width: 40em;
 }
 div.dctadmin th, div.dctadmin td {
-  padding: 0.1em 1.2em 0.1em 1.2em;
-  border: 1px solid black;
+	padding: 0.1em 1.2em 0.1em 1.2em;
+	border: 1px solid black;
 }
 div.dctadmin td pre {
-  padding: 0.45em 0em 0.15em 0em;
-  margin-bottom: 0;
-  font-size: 1em;
-  border: 0;
+	padding: 0.45em 0em 0.15em 0em;
+	margin-bottom: 0;
+	font-size: 1em;
+	border: 0;
 }
 div.dctadmin th {
-  font-weight: bold;
-  background: #f1f5ff;
+	font-weight: bold;
+	background: #f1f5ff;
 }
 div.dctadmin td, div.dctadmin td pre {
         background: #f9f9f9;
@@ -352,64 +352,64 @@ div.dctadmin tr.dcoff td {
 
 
 div #nav-search {
-  border-top: 2px;
-  border-bottom: 1px;
-  margin: 0.15em 0 50px 0;
-  clear: both;
-  width: 100%;
+	border-top: 2px;
+	border-bottom: 1px;
+	margin: 0.15em 0 50px 0;
+	clear: both;
+	width: 100%;
 }
 
 body.one-col div#nav-search {
-  display: none;
+	display: none;
 }
 
 body.two-col div#nav-search {
-  float: left;
-  width: 22%;
-  padding-left: 0;
+	float: left;
+	width: 22%;
+	padding-left: 0;
 }
 
 /* profile editing */
 .edit { 
-  cursor: pointer; 
-  color: black;
-  border: 1px dashed black;
+	cursor: pointer; 
+	color: black;
+	border: 1px dashed black;
 }
 
 .noedit { 
-  cursor: default;
+	cursor: default;
 /*	color: default;  'default' isn't a valid colour, comment out for now... JSP */
 }
 
 .textInput
 {
-  border: 1px dashed black;
-  background: white;
-  color: black;
-  font-size: 1.1em;
+	border: 1px dashed black;
+	background: white;
+	color: black;
+	font-size: 1.1em;
 }
 
 .comboInput
 {
-  background: white;
-  color: black;
-  font-size: 1.1em;
-  width: 230px;
+	background: white;
+	color: black;
+	font-size: 1.1em;
+	width: 230px;
 }
 
 .comboInputSmall
 {
-  background: white;
-  color: black;
-  font-size: 1.1em;
-  width: 150px;
+	background: white;
+	color: black;
+	font-size: 1.1em;
+	width: 150px;
 }
 
 .photofile {	
-  border: 1px dashed black;
-  background: white;
-  color: black;
-  font-size: 1.1em;
+	border: 1px dashed black;
+	background: white;
+	color: black;
+	font-size: 1.1em;
 }
 
 .colorbar {
@@ -429,7 +429,7 @@ img.photo {
 }
 
 table.photo {
-  border-collapse: separate;
+	border-collapse: separate;
         border-spacing: 0;
         margin: 0;
         padding: 0;
@@ -441,9 +441,9 @@ table.photo {
 /* jp107 added these to make the stuff in /internal/ work when viewed in
    seamonkey too - 2009-02-05 */
 div.damtpphoto {
-  width: 100%;
-  float: left;
-  border: 0;
+	width: 100%;
+	float: left;
+	border: 0;
         border-spacing: 0;
         margin: 0;
         padding: 0;
@@ -540,15 +540,15 @@ ul#nav-primary li ul li ul li a:hover {
 
 /*-------------------------------------------------------------*/
 ul#nav-tabbed li a:hover {
-  background: #036 url(../images/bg-tab-right-over.gif) no-repeat 100% 0;
+	background: #036 url(../images/bg-tab-right-over.gif) no-repeat 100% 0;
 }
 
 ul#nav-tabbed li a {
-  background: #06c url(../images/bg-tab-right.gif) no-repeat 100% 0;
+	background: #06c url(../images/bg-tab-right.gif) no-repeat 100% 0;
 }
 
 ul#nav-tabbed li.active a {
-  background: #b2ccff url(../images/bg-tab-right-active.gif) no-repeat 100% 0; border-top: 0px white solid; margin: 0 2px;
+	background: #b2ccff url(../images/bg-tab-right-active.gif) no-repeat 100% 0; border-top: 0px white solid; margin: 0 2px;
 }
 
 /*-------------------------------------------------------------*/
@@ -568,12 +568,12 @@ div.stafflist span.person { text-align: center; }
 .stafflist span.person h3 {text-align: center; margin: 0;}
 .stafflist span.person p {text-align: center; margin-top: 11px; line-height: 1.5em;}
 .stafflist span.person img, .stafflist span.photograph { 
-  text-align:center;
-  height: 160px; 
-  margin-top:5px;
-  margin-bottom:0px;
-  padding:0px;
-  border: 1px solid #999; }
+	text-align:center;
+	height: 160px; 
+	margin-top:5px;
+	margin-bottom:0px;
+	padding:0px;
+	border: 1px solid #999; }
 
 /*---------------------------------------------------------------*/
 /* menu SEARCH-FORM
@@ -607,7 +607,7 @@ form.mnsearch #sec-search-term {
 form.mnsearch #sec-search-button {
         position: relative;
         top: 6px;
-  left: -10px;
+	left: -10px;
 }
 
 /*text decoration changed 2.2 hvs*/
@@ -646,7 +646,7 @@ div.toright {
 }
 
 #site-search fieldset { 
-  border: none;
-  padding: 0px;
-  margin-bottom: 0px;
+	border: none;
+	padding: 0px;
+	margin-bottom: 0px;
 }
