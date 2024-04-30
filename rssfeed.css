@@ -111,8 +111,8 @@ dl.news_box dd p.news_item_more a {
 }
 
 dl.news_box dd a.news_item_right_link {
-      padding-right:15px;
-      background:url(/images/icon-arrow-nav-primary.gif) no-repeat 100% 60%;
+    	padding-right:15px;
+    	background:url(/images/icon-arrow-nav-primary.gif) no-repeat 100% 60%;
 }
 
 dl.news_box div.news_seealso {text-align: right;}
