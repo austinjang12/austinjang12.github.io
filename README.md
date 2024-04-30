@@ -27,10 +27,7 @@ alt="" border="0"></a> </noscript>
 <!-- End of StatCounter Code -->
 
 			
-<title>Professor David Tong: A Short Bio &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</title>
-<meta name="description" content="David Tong, Professor of 
-Theoretical Physics." />
-<meta name="keywords" content="David Tong, Physics" />
+<title>Austin Jang: A Short Bio &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</title>
 <style type="text/css" title="text/css" media="all">
 body {background: #699;}
 div#header {border-bottom: 3px solid #006;}
@@ -54,8 +51,8 @@ ul#site-info {border-top: 2px solid #006;}
 			<li class="contact"><a class="contact" href="index.html">Contact</a></li>
 			<li class="bio"><a class="bio" href="bio.html">Biography</a></li>
 			<li class="research"><a class="research" href="research.html">Research</a></li>
-			<li class="Teaching"><a class="teaching" 
-href="teaching.html">Lectures</a></li>
+			<li class="Notes"><a class="teaching" 
+href="notes.html">Notes</a></li>
 		</ul>	
 	<div id="content">
 
@@ -69,7 +66,7 @@ width="120" height="144">
 </div>
 
 
-<h1>Professor David Tong</h1>
+<h1>Austin</h1>
 
 <p>I'm a theoretical physicist at the 
 University of Cambridge. Over the years, I've worked on many different aspects of physics, including quantum field theory, general relativity, cosmology, and condensed matter physics. 
