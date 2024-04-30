@@ -9,23 +9,6 @@
 <link rel="stylesheet" href="purecontent.css" />
 <link rel="stylesheet" href="local.css" />
 <link rel="Shortcut Icon" href="/favicon.ico" />
-<!--[if IE 6]><link rel="stylesheet" href="/global/style/ie6.css" type="text/css" media="screen" /><script type="text/javascript" src="/global/js/minmax.js"></script><![endif]-->
-<!--[if IE 7]><link rel="stylesheet" href="/global/style/ie7.css" type="text/css" media="screen" /><![endif]-->
-
-<!-- Start of StatCounter Code -->
-<script type="text/javascript" language="javascript">
-var sc_project=467961;
-var sc_partition=2;
-var sc_invisible=1;
-</script>
-
-<script type="text/javascript" language="javascript"
-src="http://www.statcounter.com/counter/counter.js"></script><noscript><a
-href="http://www.statcounter.com/" target="_blank"><img
-src="http://c3.statcounter.com/counter.php?sc_project=467961&amp;java=0&amp;inv$
-alt="" border="0"></a> </noscript>
-<!-- End of StatCounter Code -->
-
 			
 <title>Austin Jang: A Short Bio &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</title>
 <style type="text/css" title="text/css" media="all">
@@ -124,54 +107,6 @@ href="http://theory.tifr.res.in/">TIFR</a>, Mumbai, India, Research fellow.</li>
 <li><strong>1986-1991:</strong>
        <a href="http://www.hazelwick.org/">Hazelwick School</a></li>
 </ul>
-
-
-<h2>Prizes, Fellowships and Awards</h2>
-
-<ul>
-<li><strong>2020:</strong>
-    <a href="https://epsrc.ukri.org/">EPSRC</a> New Horizons Award</li>
-<li><strong>2018:</strong>
-    <a href="https://www.simonsfoundation.org/mathematics-physical-sciences/simons-investigators/">Simons Investigator</a></li>
-<li><strong>2017:</strong>
-    <a href="http://www.royalsoc.ac.uk/">Royal Society</a> Wolfson Research Merit Award</li>
-<li><strong>2013:</strong>
-     <a 
-href="http://www.cam.ac.uk/for-staff/news/2013-pilkington-prizes">Pilkington 
-Teaching Prize</a> University of Cambridge</li>
-<li><strong>2011:</strong>
-     <a href="http://www.damtp.cam.ac.uk/user/tong/erc.html">ERC Starting Investigator 
-Grant</a></li>
-<li><strong>2011:</strong>
-     <a href="http://www.fqxi.org/community/essay/winners/2011.1">FQXI Essay Competition</a> (Second 
-Prize).</li>
-<li><strong>2008:</strong> 
-     <a href="http://en.wikipedia.org/wiki/Adams_Prize">Adams Prize</a></li>
-<li><strong>2004:</strong>      
-     <a href="http://www.royalsoc.ac.uk/">Royal Society URF</a></li>
-<li><strong>1999:</strong> 
-     <a href="http://www.epsrc.ac.uk/default.htm">EPSRC Fellowship</a></li>
-</ul>
-
-<h2>Funding Agencies</h2>
-
-<table>
-<tr>
-<td><img src="bio/roysoc.jpg" alt="royal society" width="216" height="121"></td>
-<td><img src="bio/simons.jpg" alt="simons foundation" width="200" height="110"></td>
-<td><img src="bio/stfc.jpeg" alt="stfc" width="316" height="111"></td>
-</table>
-
-
-
-</div>
-  </div>
-  <ul id="site-info">
-    <li class="copy">&copy; David Tong, DAMTP, Centre for Mathematical Sciences, Wilberforce Road, Cambridge CB3 0WA.<br/>
-
-  </ul>
-</div>
-
 
 </body>
 </html> 
