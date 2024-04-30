@@ -1,5 +1,5 @@
 
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 
@@ -25,6 +25,19 @@ ul#site-info {border-top: 2px solid #006;}
 </head>
 
 <body class='two-col dept' onload='setFocus()'>
+
+<div id="header">
+<div id="branding"><a href="http://www.cam.ac.uk/" accesskey="1"><img src="/global/images/uoc.png"
+alt="University of Cambridge" /></a>
+</div>
+
+<!-- end header -->
+
+</div>
+
+      <div id="container"> <a name="skip-content" id="skip-content"></a>
+
+
 
   <br>	<ul id="nav-primary">
       <li class="contact"><a class="contact" href="index.html">Contact</a></li>
@@ -66,6 +79,9 @@ href="teaching.html">Lectures Notes</a>
 <li><a href="http://www.damtp.cam.ac.uk/user/tong/susy.html">Supersymmetric Field Theory</a></li>
 <li><a href="http://www.damtp.cam.ac.uk/user/tong/string.html">String Theory</a></li>
     </ul></ul>	
+  <div id="content">
+
+  <div id="content-primary">
     
 <h1>Austin </h1>
 
