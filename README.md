@@ -36,7 +36,12 @@
                 <ul class="child">
                     <li><u>Classical Mechanics</u></li>
                     <li><a href="http://www.damtp.cam.ac.uk/user/tong/relativity.html">Dynamics and Relativity</a></li>
-                    <!-- Other lecture links -->
+                    <li><u>Electromagnetism</u></li>
+                    <li><a href="http://www.damtp.cam.ac.uk/user/tong/relativity.html">Dynamics and Relativity</a></li>
+                    <li><u>Waves & Optics</u></li>
+                    <li><a href="http://www.damtp.cam.ac.uk/user/tong/relativity.html">Dynamics and Relativity</a></li>
+                    <li><u>Thermodynamics</u></li>
+                    <li><a href="http://www.damtp.cam.ac.uk/user/tong/relativity.html">Dynamics and Relativity</a></li>
                 </ul>
             </li>
         </ul>
