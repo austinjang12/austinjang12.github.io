@@ -28,12 +28,12 @@ body.people h2#biography {display: none;}
 .stafflist div.person h3 {text-align: center; margin: 0;}
 .stafflist div.person p {text-align: center; margin-top: 11px; line-height: 1.5em;}
 .stafflist div.person img, .stafflist span.photograph { 
-  text-align:center;
-  height: 160px; 
-  margin-top:5px;
-  margin-bottom:0px;
-  padding:0px;
-  border: 1px solid #999; }, 
+	text-align:center;
+	height: 160px; 
+	margin-top:5px;
+	margin-bottom:0px;
+	padding:0px;
+	border: 1px solid #999; }, 
 
 /* .stafflist div.person img, .stafflist span.photograph {margin-top: 5px; margin-left: 14px; width: 130px; height: 160px; border: 1px solid #999; } */
 .stafflist span.photograph {height: 160px;}
@@ -125,3 +125,4 @@ body #purecontenteditor div.graybox {float: none; width: auto; min-height: inher
 /* Survey results */
 table.surveyresultschart td.chart {padding-left: 2em; width: 300px; border-right: 1px dashed gray;}
 table.surveyresultschart td.chart div {color: black; background-color: #ccc;}
+
