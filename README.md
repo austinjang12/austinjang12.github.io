@@ -66,9 +66,6 @@ href="teaching.html">Lectures Notes</a>
 <li><a href="http://www.damtp.cam.ac.uk/user/tong/susy.html">Supersymmetric Field Theory</a></li>
 <li><a href="http://www.damtp.cam.ac.uk/user/tong/string.html">String Theory</a></li>
     </ul></ul>	
-  <div id="content">
-
-  <div id="content-primary">
     
 <h1>Austin </h1>
 
