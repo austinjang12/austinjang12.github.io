@@ -26,19 +26,6 @@ ul#site-info {border-top: 2px solid #006;}
 
 <body class='two-col dept' onload='setFocus()'>
 
-<div id="header">
-<div id="branding"><a href="http://www.cam.ac.uk/" accesskey="1"><img src="/global/images/uoc.png"
-alt="University of Cambridge" /></a>
-</div>
-
-<!-- end header -->
-
-</div>
-
-      <div id="container"> <a name="skip-content" id="skip-content"></a>
-
-
-
   <br>	<ul id="nav-primary">
       <li class="contact"><a class="contact" href="index.html">Contact</a></li>
       <li class="bio"><a class="bio" href="bio.html">Biography</a></li>
