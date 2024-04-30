@@ -3,11 +3,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <!-- remove next line if your web server adds charset-->
-<link rel="stylesheet" href="/global/style/layout.css" type="text/css" media="all" />
-<link rel="stylesheet" href="/global/style/print.css" type="text/css" media="print" />
-<link rel="stylesheet" href="/global/style/rssfeed.css" />
-<link rel="stylesheet" href="/global/style/purecontent.css" />
-<link rel="stylesheet" href="/global/style/local.css" />
+<link rel="stylesheet" href="layout.css" type="text/css" media="all" />
+<link rel="stylesheet" href="print.css" type="text/css" media="print" />
+<link rel="stylesheet" href="rssfeed.css" />
+<link rel="stylesheet" href="purecontent.css" />
+<link rel="stylesheet" href="local.css" />
 <link rel="Shortcut Icon" href="/favicon.ico" />
 <!--[if IE 6]><link rel="stylesheet" href="/global/style/ie6.css" type="text/css" media="screen" /><script type="text/javascript" src="/global/js/minmax.js"></script><![endif]-->
 <!--[if IE 7]><link rel="stylesheet" href="/global/style/ie7.css" type="text/css" media="screen" /><![endif]-->
@@ -51,7 +51,7 @@ ul#site-info {border-top: 2px solid #006;}
 			<li class="contact"><a class="contact" href="index.html">Contact</a></li>
 			<li class="bio"><a class="bio" href="bio.html">Biography</a></li>
 			<li class="research"><a class="research" href="research.html">Research</a></li>
-			<li class="Notes"><a class="teaching" 
+			<li class="Notes"><a class="notes" 
 href="notes.html">Notes</a></li>
 		</ul>	
 	<div id="content">
