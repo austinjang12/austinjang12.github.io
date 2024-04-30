@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
     <link rel="stylesheet" href="layout.css" type="text/css" media="all" />
@@ -41,6 +40,10 @@
                     <li><u>Waves & Optics</u></li>
                     <li><a href="http://www.damtp.cam.ac.uk/user/tong/relativity.html">Dynamics and Relativity</a></li>
                     <li><u>Thermodynamics</u></li>
+                    <li><a href="http://www.damtp.cam.ac.uk/user/tong/relativity.html">Dynamics and Relativity</a></li>
+                    <li><u>Relativity</u></li>
+                    <li><a href="http://www.damtp.cam.ac.uk/user/tong/relativity.html">Dynamics and Relativity</a></li>
+                    <li><u>Quantum Physics</u></li>
                     <li><a href="http://www.damtp.cam.ac.uk/user/tong/relativity.html">Dynamics and Relativity</a></li>
                 </ul>
             </li>
