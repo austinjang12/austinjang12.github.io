@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Austin's Blog</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      transition: background 0.5s, color 0.5s;
+    }
+
+    .container {
+      display: flex;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .sidebar {
+      width: 280px;
+      background: linear-gradient(180deg, #1e1e2f, #2b2b40);
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: fixed;
+      height: 100%;
+      box-shadow: 4px 0px 20px rgba(0,0,0,0.5);
+    }
+
+    .sidebar h1 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 1.5rem;
+      margin: 0;
+    }
+
+    .toggle-btn {
+      cursor: pointer;
+      border: none;
+      background: none;
+      color: #fff;
+      font-size: 1.2rem;
+      transition: transform 0.3s;
+    }
+    .toggle-btn:hover {
+      transform: scale(1.2);
+    }
+
+    .sidebar nav {
+      margin-top: 30px;
+    }
+
+    .sidebar nav a {
+      display: block;
+      color: #ccc;
+      text-decoration: none;
+      margin: 12px 0;
+      font-size: 1.1rem;
+      transition: color 0.3s, transform 0.3s;
+      cursor: pointer;
+    }
+
+    .sidebar nav a:hover {
+      color: #fff;
+      transform: translateX(5px);
+    }
+
+    .socials {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 30px;
+    }
+
+    .socials a {
+      color: #aaa;
+      font-size: 1.4rem;
+      transition: color 0.3s;
+      text-decoration: none;
+    }
+
+    .socials a:hover {
+      color: #1db954;
+    }
+
+    .content {
+      margin-left: 300px;
+      padding: 40px;
+      flex: 1;
+      overflow-y: auto;
+    }
+
+    .section {
+      display: none;
+    }
+    .section.active {
+      display: block;
+      animation: fadeIn 0.4s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+
+    /* Blog cards */
+    .blog-card {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+      transition: transform 0.3s, background 0.3s;
+      cursor: pointer;
+    }
+    .blog-card:hover {
+      transform: translateY(-5px);
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    .blog-card h2 {
+      margin-top: 0;
+    }
+
+    /* Notes */
+    .note-item {
+      margin-bottom: 15px;
+    }
+    .note-item a {
+      color: #1db954;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    /* Papers */
+    .paper-card {
+      background: rgba(255,255,255,0.05);
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      transition: background 0.3s;
+    }
+    .paper-card:hover {
+      background: rgba(255,255,255,0.1);
+    }
+
+    .paper-card h3 {
+      margin-top: 0;
+    }
+
+    /* About Me (resume style) */
+    .resume-section {
+      margin-bottom: 25px;
+    }
+    .resume-section h3 {
+      border-bottom: 2px solid #1db954;
+      padding-bottom: 5px;
+    }
+
+    /* Gallery */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 15px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      transition: transform 0.3s;
+      cursor: pointer;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Light Mode */
+    body.light-mode {
+      background: linear-gradient(to right, #e0eafc, #cfdef3);
+      color: #000;
+    }
+    body.light-mode .sidebar {
+      background: linear-gradient(180deg, #ffffff, #e6e6e6);
+      color: #000;
+    }
+    body.light-mode .sidebar nav a {
+      color: #333;
+    }
+    body.light-mode .sidebar nav a:hover {
+      color: #000;
+    }
+    body.light-mode .blog-card, body.light-mode .paper-card {
+      background: rgba(0,0,0,0.05);
+    }
+    .section {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.section.active {
+  display: block;
+  opacity: 1;
+}
+.sidebar a.active-link {
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  color: #fff;
+  border-radius: 8px;
+  padding-left: 12px;
+  transition: all 0.3s ease-in-out;
+}
+
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <div>
+        <h1>Austin's Blog <button class="toggle-btn" id="modeToggle">🌙</button></h1>
+        <nav>
+          <a onclick="showSection('about')">About Me</a>
+          <a onclick="showSection('blog')">Blog</a>
+          <a onclick="showSection('notes')">Notes</a>
+          <a onclick="showSection('papers')">Papers</a>
+          <a onclick="showSection('gallery')">Gallery</a>
+        </nav>
+      </div>
+      <div class="socials">
+        <a href="#">🐦</a>
+        <a href="#">💼</a>
+        <a href="#">📸</a>
+      </div>
+    </div>
+
+    <div class="content">
+      <section id="about" class="section active">
+        <h2>About Me</h2>
+        <div class="resume-section">
+          <h3>Introduction</h3>
+          <p>Hi, I’m Austin. I’m passionate about physics, teaching, and exploring connections across science.</p>
+        </div>
+        <div class="resume-section">
+          <h3>Where I Am</h3>
+          <p>Currently based in California, pursuing physics and mathematics.</p>
+        </div>
+        <div class="resume-section">
+          <h3>Experience / Activities / Hobbies</h3>
+          <ul>
+            <li>Physics Olympiad Coaching & Tutoring</li>
+            <li>Blogging about interdisciplinary science ideas</li>
+            <li>Music: Choir & Orchestra</li>
+            <li>Arm wrestling & board games</li>
+          </ul>
+        </div>
+        <div class="resume-section">
+          <h3>Classes I Took</h3>
+          <p>Advanced C++, Differential Equations, Discrete Math, AP Biology, Modern Physics, Microeconomics, and more.</p>
+        </div>
+      </section>
+
+      <section id="blog" class="section">
+        <h2>Blog</h2>
+        <div class="blog-card" onclick="window.location='article1.html'">
+          <h2>First Blog Post</h2>
+          <p>Preview of the first blog post... Click to read more.</p>
+        </div>
+        <div class="blog-card" onclick="window.location='article2.html'">
+          <h2>Second Blog Post</h2>
+          <p>Preview of the second blog post... Click to read more.</p>
+        </div>
+      </section>
+
+      <section id="notes" class="section">
+        <h2>Notes</h2>
+        <div class="note-item">
+          <a href="notes/quantum.pdf">Quantum Mechanics Notes</a> – Detailed explanations of wavefunctions and operators.
+        </div>
+        <div class="note-item">
+          <a href="notes/electromagnetism.pdf">Electromagnetism Notes</a> – Maxwell's equations and applications.
+        </div>
+      </section>
+
+      <section id="papers" class="section">
+        <h2>Papers</h2>
+        <div class="paper-card">
+          <h3>Prototype Hybrid Mode Cavity for Axion Detection</h3>
+          <p>A prototype cavity was developed with a novel geometry that enhances sensitivity to axion dark matter.</p>
+          <a href="#">PDF</a>
+        </div>
+        <div class="paper-card">
+          <h3>Determining Spin-Dependent Light Dark Matter Rates</h3>
+          <p>Exploring how neutron scattering reveals properties of spin-dependent light dark matter.</p>
+          <a href="#">PDF</a>
+        </div>
+      </section>
+
+      <section id="gallery" class="section">
+        <h2>Gallery</h2>
+        <div class="gallery">
+          <img src="https://via.placeholder.com/200" alt="Gallery Item" />
+          <img src="https://via.placeholder.com/200" alt="Gallery Item" />
+          <img src="https://via.placeholder.com/200" alt="Gallery Item" />
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script>
+    const toggleBtn = document.getElementById('modeToggle');
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('light-mode');
+      toggleBtn.textContent = document.body.classList.contains('light-mode') ? '☀️' : '🌙';
+    });
+
+    function showSection(id) {
+  const sections = document.querySelectorAll('.section');
+  const links = document.querySelectorAll('.sidebar a');
+
+  sections.forEach(sec => {
+    if (sec.id === id) {
+      sec.style.display = "block";
+      setTimeout(() => sec.classList.add("active"), 10);
+    } else {
+      sec.classList.remove("active");
+      setTimeout(() => sec.style.display = "none", 500);
+    }
+  });
+
+  // Highlight active link
+  links.forEach(link => {
+    if (link.getAttribute("href") === "#" + id) {
+      link.classList.add("active-link");
+    } else {
+      link.classList.remove("active-link");
+    }
+  });
+
+  // Update URL hash for navigation
+  window.location.hash = id;
+}
+
+
+  </script>
+</body>
+</html>
