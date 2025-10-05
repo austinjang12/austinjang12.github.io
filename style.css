@@ -1,1 +1,207 @@
+body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      transition: background 0.5s, color 0.5s;
+    }
 
+    .container {
+      display: flex;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .sidebar {
+      width: 280px;
+      background: linear-gradient(180deg, #1e1e2f, #2b2b40);
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: fixed;
+      height: 100%;
+      box-shadow: 4px 0px 20px rgba(0,0,0,0.5);
+    }
+
+    .sidebar h1 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 1.5rem;
+      margin: 0;
+    }
+
+    .toggle-btn {
+      cursor: pointer;
+      border: none;
+      background: none;
+      color: #fff;
+      font-size: 1.2rem;
+      transition: transform 0.3s;
+    }
+    .toggle-btn:hover {
+      transform: scale(1.2);
+    }
+
+    .sidebar nav {
+      margin-top: 30px;
+    }
+
+    .sidebar nav a {
+      display: block;
+      color: #ccc;
+      text-decoration: none;
+      margin: 12px 0;
+      font-size: 1.1rem;
+      transition: color 0.3s, transform 0.3s;
+      cursor: pointer;
+    }
+
+    .sidebar nav a:hover {
+      color: #fff;
+      transform: translateX(5px);
+    }
+
+    .socials {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 30px;
+    }
+
+    .socials a {
+      color: #aaa;
+      font-size: 1.4rem;
+      transition: color 0.3s;
+      text-decoration: none;
+    }
+
+    .socials a:hover {
+      color: #1db954;
+    }
+
+    .content {
+      margin-left: 300px;
+      padding: 40px;
+      flex: 1;
+      overflow-y: auto;
+    }
+
+    .section {
+      display: none;
+    }
+    .section.active {
+      display: block;
+      animation: fadeIn 0.4s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+
+    /* Blog cards */
+    .blog-card {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+      transition: transform 0.3s, background 0.3s;
+      cursor: pointer;
+    }
+    .blog-card:hover {
+      transform: translateY(-5px);
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    .blog-card h2 {
+      margin-top: 0;
+    }
+
+    /* Notes */
+    .note-item {
+      margin-bottom: 15px;
+    }
+    .note-item a {
+      color: #1db954;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    /* Papers */
+    .paper-card {
+      background: rgba(255,255,255,0.05);
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      transition: background 0.3s;
+    }
+    .paper-card:hover {
+      background: rgba(255,255,255,0.1);
+    }
+
+    .paper-card h3 {
+      margin-top: 0;
+    }
+
+    /* About Me (resume style) */
+    .resume-section {
+      margin-bottom: 25px;
+    }
+    .resume-section h3 {
+      border-bottom: 2px solid #1db954;
+      padding-bottom: 5px;
+    }
+
+    /* Gallery */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 15px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      transition: transform 0.3s;
+      cursor: pointer;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Light Mode */
+    body.light-mode {
+      background: linear-gradient(to right, #e0eafc, #cfdef3);
+      color: #000;
+    }
+    body.light-mode .sidebar {
+      background: linear-gradient(180deg, #ffffff, #e6e6e6);
+      color: #000;
+    }
+    body.light-mode .sidebar nav a {
+      color: #333;
+    }
+    body.light-mode .sidebar nav a:hover {
+      color: #000;
+    }
+    body.light-mode .blog-card, body.light-mode .paper-card {
+      background: rgba(0,0,0,0.05);
+    }
+    .section {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.section.active {
+  display: block;
+  opacity: 1;
+}
+.sidebar a.active-link {
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  color: #fff;
+  border-radius: 8px;
+  padding-left: 12px;
+  transition: all 0.3s ease-in-out;
+}
